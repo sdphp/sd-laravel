@@ -1,0 +1,20 @@
+description = "Default Layout"
+
+==
+
+{% partial 'header' %}
+
+    <header id="head" class="secondary"></header>
+
+    <!-- container -->
+    <div class="container">
+        <div class="row">
+            <!-- Article main content -->
+            <article class="col-sm-12 maincontent">
+                {% page %}
+            </article>
+            <!-- /Article -->
+        </div>
+    </div>  <!-- /container -->
+
+{% partial 'footer' %}
